@@ -1,76 +1,76 @@
 const images = [
     {
-        src: "images/aash-in-bus.jpg",
+        src: "images/aash-in-bus.JPG",
         text: "1/80 S | ISO 80 | 30.5mm | -0.7ev | F5.0 | Flash used",
         alt: "Aash in the bus"
     },
     {
-        src: "images/aash-in-kitchen.jpg",
+        src: "images/aash-in-kitchen.JPG",
         text: "",
         alt: "Aash in the kitchen"
     },
     {
-        src: "images/backyard.jpg",
+        src: "images/backyard.JPG",
         text: "",
         alt: "Backyard view"
     },
     {
-        src: "images/batman.jpg",
+        src: "images/batman.JPG",
         text: "",
         alt: "Batman statue"
     },
     {
-        src: "images/brat.jpg",
+        src: "images/brat.JPG",
         text: "",
         alt: "Brat moment"
     },
     {
-        src: "images/ca-aashy.jpg",
+        src: "images/ca-aashy.JPG",
         text: "",
         alt: "CA Aashy"
     },
     {
-        src: "images/cloud.jpg",
+        src: "images/cloud.JPG",
         text: "",
         alt: "Cloudy sky"
     },
     {
-        src: "images/emily-in-store.jpg",
+        src: "images/emily-in-store.JPG",
         text: "",
         alt: "Emily in a store"
     },
     {
-        src: "images/gallery.jpg",
+        src: "images/gallery.JPG",
         text: "",
         alt: "Art gallery"
     },
     {
-        src: "images/halloween.jpg",
+        src: "images/halloween.JPG",
         text: "",
         alt: "Halloween night"
     },
     {
-        src: "images/house.jpg",
+        src: "images/house.JPG",
         text: "",
         alt: "House front view"
     },
     {
-        src: "images/ldh.jpg",
+        src: "images/ldh.JPG",
         text: "",
         alt: "LDH moment"
     },
     {
-        src: "images/movies.jpg",
+        src: "images/movies.JPG",
         text: "",
         alt: "Movie theater visit"
     },
     {
-        src: "images/neighbour.jpg",
+        src: "images/neighbour.JPG",
         text: "",
         alt: "Neighbor's house"
     },
     {
-        src: "images/plant.jpg",
+        src: "images/plant.JPG",
         text: "1/80 S | ISO 80 | 30.5mm | -0.7ev | F5.0 | Flash used",
         alt: "Green plant"
     },
@@ -80,7 +80,7 @@ const images = [
         alt: "Sara at the beach"
     },
     {
-        src: "images/tatwa-gallery.jpg",
+        src: "images/tatwa-gallery.JPG",
         text: "",
         alt: "Tatwa gallery"
     },
