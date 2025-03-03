@@ -1,91 +1,91 @@
 const images = [
     {
-        src: "/images/aash-in-bus.JPG",
+        src: "images/aash-in-bus.JPG",
         text: "1/80 S | ISO 80 | 30.5mm | -0.7ev | F5.0 | Flash used",
         alt: "Aash in the bus"
     },
     {
-        src: "/images/aash-in-kitchen.JPG",
+        src: "images/aash-in-kitchen.JPG",
         text: "",
         alt: "Aash in the kitchen"
     },
     {
-        src: "/images/backyard.JPG",
+        src: "images/backyard.JPG",
         text: "",
         alt: "Backyard view"
     },
     {
-        src: "/images/batman.JPG",
+        src: "images/batman.JPG",
         text: "",
         alt: "Batman statue"
     },
     {
-        src: "/images/brat.JPG",
+        src: "images/brat.JPG",
         text: "",
         alt: "Brat moment"
     },
     {
-        src: "/images/ca-aashy.JPG",
+        src: "images/ca-aashy.JPG",
         text: "",
         alt: "CA Aashy"
     },
     {
-        src: "/images/cloud.JPG",
+        src: "images/cloud.JPG",
         text: "",
         alt: "Cloudy sky"
     },
     {
-        src: "/images/emily-in-store.JPG",
+        src: "images/emily-in-store.JPG",
         text: "",
         alt: "Emily in a store"
     },
     {
-        src: "/images/gallery.JPG",
+        src: "images/gallery.JPG",
         text: "",
         alt: "Art gallery"
     },
     {
-        src: "/images/halloween.JPG",
+        src: "images/halloween.JPG",
         text: "",
         alt: "Halloween night"
     },
     {
-        src: "/images/house.JPG",
+        src: "images/house.JPG",
         text: "",
         alt: "House front view"
     },
     {
-        src: "/images/ldh.JPG",
+        src: "images/ldh.JPG",
         text: "",
         alt: "LDH moment"
     },
     {
-        src: "/images/movies.JPG",
+        src: "images/movies.JPG",
         text: "",
         alt: "Movie theater visit"
     },
     {
-        src: "/images/neighbour.JPG",
+        src: "images/neighbour.JPG",
         text: "",
         alt: "Neighbor's house"
     },
     {
-        src: "/images/plant.JPG",
+        src: "images/plant.JPG",
         text: "1/80 S | ISO 80 | 30.5mm | -0.7ev | F5.0 | Flash used",
         alt: "Green plant"
     },
     {
-        src: "/images/sara-beach.JPG",
+        src: "images/sara-beach.JPG",
         text: "",
         alt: "Sara at the beach"
     },
     {
-        src: "/images/tatwa-gallery.JPG",
+        src: "images/tatwa-gallery.JPG",
         text: "",
         alt: "Tatwa gallery"
     },
     {
-        src: "/images/tatwa.jpg",
+        src: "images/tatwa.jpg",
         text: "",
         alt: "Tatwa moment"
     }
