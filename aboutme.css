@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Keeps items aligned vertically in the center */
+    width: 80%;
+    margin: 20px auto;        /* Centers the container horizontally and adds top margin */
+    gap: 30px;                /* Adds a gap between the image and the text */
+}
+
+#picture {
+    text-align: center;
+}
+
+#picture img {
+    width: 300px; 
+    border-radius: 10px;
+    border: 10px solid white; 
+}
+
+#about-text {
+    padding: 20px;
+}
+
+#about-text p {
+    font-size: 1.2em;
+}
+
+#kavelink {
+    all: unset;
+}
+

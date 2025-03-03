@@ -1,146 +1,151 @@
 body {
-    max-width: 90vw;
-    margin: 0 auto;
-    ;
-    font-family: "Jura", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    background-color: #EBE6DB;
+  max-width: 90vw;
+  margin: 0 auto;
+  font-family: "Jura", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #ebe6db;
 }
 
 .gallery {
-    columns: 300px;
+  columns: 300px;
 }
 
 .gallery img {
-    width: 100%;
-    margin-bottom: 1em;
-    cursor: pointer;
-    background-color: white;
-    padding: 10px;
-    box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1em;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    justify-content: center;
-    align-items: center;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-content {
-    position: relative;
-    background: #EBE6DB;
-    max-width: 90vw;
-    padding: 30px;
-    text-align: left;
+  position: relative;
+  background: #ebe6db;
+  max-width: 90vw;
+  padding: 30px;
+  text-align: left;
 }
 
 .modal img {
-    max-width: 80vw;
-    max-height: 80vh;
-    width: auto;
-    height: auto;
+  max-width: 80vw;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
 }
 
 .close {
-    position: absolute;
-    right: 10px;
-    top: 0px;
-    cursor: pointer;
-    font-size: 28px;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  cursor: pointer;
+  font-size: 28px;
 }
 
 h1 {
-    font-weight: 300;
-    font-size: 4em;
-    letter-spacing: 5px;
-    margin-left: 0.28em;
+  font-weight: 300;
+  font-size: 4em;
+  letter-spacing: 5px;
+  margin-left: 0.28em;
 }
 
 h2 {
-    font-size: 2em;
-    text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: 5px;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
 }
 
 nav {
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
 }
 
 nav li {
-    margin-left: 1em !important;
+  margin-left: 1em !important;
 }
 
 .info {
-    margin: 1em;
-    margin-bottom: 2em;
+  margin: 1em;
+  margin-bottom: 2em;
 }
 
 .info ul {
-    padding-left: 1em;
+  padding-left: 1em;
 }
 
-.info li, nav li {
-    all: unset;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    margin-top: 0.5em;
+.info li,
+nav li {
+  all: unset;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
 }
 
-a {
-    font-size: 1.25em;
-    cursor: pointer;
-    color: #AF6D34;
-    font-weight: 600;
-    width: fit-content;
-    position: relative;
-    display: inline-block;
-    padding-bottom: 2px;
+li a {
+  font-size: 1.25em;
+  cursor: pointer;
+  color: #af6d34;
+  font-weight: 600;
+  width: fit-content;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 2px;
 }
 
-a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 1px;
-    background-color: #AF6D34;
-    transition: width 0.3s ease-in-out;
+li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: #af6d34;
+  transition: width 0.3s ease-in-out;
 }
 
-a:hover::after {
-    width: 100%;
+li a:hover::after {
+  width: 100%;
+}
+
+#kavelink a {
+  all: unset;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 3em;
-    }
+  h1 {
+    font-size: 3em;
+  }
 
-    h2 {
-        font-size: 1.5em;
-    }
+  h2 {
+    font-size: 1.5em;
+  }
 
-    a {
-        font-size: 1em;
-    }
+  a {
+    font-size: 1em;
+  }
 }
