@@ -85,8 +85,13 @@ const images = [
         alt: "Tatwa gallery"
     },
     {
-        src: "images/tatwa.jpg",
+        src: "images/beach.jpg",
         text: "",
+        alt: "Rania at the beach"
+    },
+    {
+        src: "images/tatwa.jpg",
+        text: "584.67КВ | 1440×7800 | 3MP | ISO 200 ",
         alt: "Tatwa moment"
     }
 ];
