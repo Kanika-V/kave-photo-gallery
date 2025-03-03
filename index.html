@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+    <link href="/styles.css" rel="stylesheet">
+    <script src="/script.js"></script>
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <nav>
+        <h1>KAVE</h1>
+        <ul>
+            <li><a src="">About me</a></li>
+            <li><a src="">Instagram</a></li>
+        </ul>
+    </nav>
+    <div class="gallery" id="gallery">
+        <div class="info">
+            <h2>CAMERAS</h2>
+            <ul>
+                <li><a src="/">Canon Powershot G11</a></li>
+                <li><a src="/">Canon Powershot G11</a></li>
+                <li><a src="/">Canon Powershot G11</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal" class="modal" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-img" src="" alt="">
+            <p id="modal-text"></p>
+        </div>
+    </div>
+</body>
+
+</html>
